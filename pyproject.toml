@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cdsize"
+version = "0.2.1"
+description = "Размеры таблиц файловой базы 1С (1Cv8.1CD), только чтение"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+cdsize = "cdsize.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cdsize*"]
+
+[tool.setuptools.package-data]
+cdsize = ["ui.html"]

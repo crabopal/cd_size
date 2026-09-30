@@ -4,3 +4,15 @@
 /Config/Configuration.ParentConfigurations.bin
 /Config/Configuration.ParentConfigurations
 *.cf
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+dist/
+build/
+agent-tools/
+portable/work/
+*.spec
+cdsize-app.zip
